@@ -1,0 +1,306 @@
+!SESSION 2024-07-31 17:19:03.260 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-31 17:19:07.565
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-31 17:19:29.576
+!MESSAGE Logback config file: C:\Users\serej\OneDrive\Рабочий стол\1.16.5\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-31 17:19:43.487
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\serej'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2024-07-31 17:23:46.291
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: Marker property value is too long: 4:net.minecraft.util.Util#make#java.util.function.Supplier<T>#() -> {
+  Builder<ResourceLocation, ResourceLocation> builder = ImmutableMap.builder();
+  BiConsumer<String, String> biconsumer = (<no type> p_239468_1_, <no type> p_239468_2_) ->   {
+    ResourceLocation resourcelocation = new ResourceLocation(p_239468_1_);
+    ResourceLocation resourcelocation1 = new ResourceLocation(p_239468_2_);
+    builder.put(resourcelocation, resourcelocation1);
+    builder.put(getMetaFileLocation(resourcelocation), getMetaFileLocation(resourcelocation1));
+  };
+  biconsumer.accept("textures/block/melon_stem.png", "textures/block/pumpkin_stem.png");
+  biconsumer.accept("textures/block/anvil.png", "textures/blocks/anvil_base.png");
+  biconsumer.accept("textures/block/anvil_top.png", "textures/blocks/anvil_top_damaged_0.png");
+  biconsumer.accept("textures/block/chipped_anvil_top.png", "textures/blocks/anvil_top_damaged_1.png");
+  biconsumer.accept("textures/block/damaged_anvil_top.png", "textures/blocks/anvil_top_damaged_2.png");
+  biconsumer.accept("textures/block/beacon.png", "textures/blocks/beacon.png");
+  biconsumer.accept("textures/block/bedrock.png", "textures/blocks/bedrock.png");
+  biconsumer.accept("textures/block/beetroots_stage0.png", "textures/blocks/beetroots_stage_0.png");
+  biconsumer.accept("textures/block/beetroots_stage1.png", "textures/blocks/beetroots_stage_1.png");
+  biconsumer.accept("textures/block/beetroots_stage2.png", "textures/blocks/beetroots_stage_2.png");
+  biconsumer.accept("textures/block/beetroots_stage3.png", "textures/blocks/beetroots_stage_3.png");
+  biconsumer.accept("textures/block/bone_block_side.png", "textures/blocks/bone_block_side.png");
+  biconsumer.accept("textures/block/bone_block_top.png", "textures/blocks/bone_block_top.png");
+  biconsumer.accept("textures/block/bookshelf.png", "textures/blocks/bookshelf.png");
+  biconsumer.accept("textures/block/brewing_stand.png", "textures/blocks/brewing_stand.png");
+  biconsumer.accept("textures/block/brewing_stand_base.png", "textures/blocks/brewing_stand_base.png");
+  biconsumer.accept("textures/block/bricks.png", "textures/blocks/brick.png");
+  biconsumer.accept("textures/block/cactus_bottom.png", "textures/blocks/cactus_bottom.png");
+  biconsumer.accept("textures/block/cactus_side.png", "textures/blocks/cactus_side.png");
+  biconsumer.accept("textures/block/cactus_top.png", "textures/blocks/cactus_top.png");
+  biconsumer.accept("textures/block/cake_bottom.png", "textures/blocks/cake_bottom.png");
+  biconsumer.accept("textures/block/cake_inner.png", "textures/blocks/cake_inner.png");
+  biconsumer.accept("textures/block/cake_side.png", "textures/blocks/cake_side.png");
+  biconsumer.accept("textures/block/cake_top.png", "textures/blocks/cake_top.png");
+  biconsumer.accept("textures/block/carrots_stage0.png", "textures/blocks/carrots_stage_0.png");
+  biconsumer.accept("textures/block/carrots_stage1.png", "textures/blocks/carrots_stage_1.png");
+  biconsumer.accept("textures/block/carrots_stage2.png", "textures/blocks/carrots_stage_2.png");
+  biconsumer.accept("textures/block/carrots_stage3.png", "textures/blocks/carrots_stage_3.png");
+  biconsumer.accept("textures/block/cauldron_bottom.png", "textures/blocks/cauldron_bottom.png");
+  biconsumer.accept("textures/block/cauldron_inner.png", "textures/blocks/cauldron_inner.png");
+  biconsumer.accept("textures/block/cauldron_side.png", "textures/blocks/cauldron_side.png");
+  biconsumer.accept("textures/block/cauldron_top.png", "textures/blocks/cauldron_top.png");
+  biconsumer.accept("textures/block/chain_command_block_back.png", "textures/blocks/chain_command_block_back.png");
+  biconsumer.accept("textures/block/chain_command_block_conditional.png", "textures/blocks/chain_command_block_conditional.png");
+  biconsumer.accept("textures/block/chain_command_block_front.png", "textures/blocks/chain_command_block_front.png");
+  biconsumer.accept("textures/block/chain_command_block_side.png", "textures/blocks/chain_command_block_side.png");
+  biconsumer.accept("textures/block/chorus_flower.png", "textures/blocks/chorus_flower.png");
+  biconsumer.accept("textures/block/chorus_flower_dead.png", "textures/blocks/chorus_flower_dead.png");
+  biconsumer.accept("textures/block/chorus_plant.png", "textures/blocks/chorus_plant.png");
+  biconsumer.accept("textures/block/clay.png", "textures/blocks/clay.png");
+  biconsumer.accept("textures/block/coal_block.png", "textures/blocks/coal_block.png");
+  biconsumer.accept("textures/block/coal_ore.png", "textures/blocks/coal_ore.png");
+  biconsumer.accept("textures/block/coarse_dirt.png", "textures/blocks/coarse_dirt.png");
+  biconsumer.accept("textures/block/cobblestone.png", "textures/blocks/cobblestone.png");
+  biconsumer.accept("textures/block/mossy_cobblestone.png", "textures/blocks/cobblestone_mossy.png");
+  biconsumer.accept("textures/block/cocoa_stage0.png", "textures/blocks/cocoa_stage_0.png");
+  biconsumer.accept("textures/block/cocoa_stage1.png", "textures/blocks/cocoa_stage_1.png");
+  biconsumer.accept("textures/block/cocoa_stage2.png", "textures/blocks/cocoa_stage_2.png");
+  biconsumer.accept("textures/block/command_block_back.png", "textures/blocks/command_block_back.png");
+  biconsumer.accept("textures/block/command_block_conditional.png", "textures/blocks/command_block_conditional.png");
+  biconsumer.accept("textures/block/command_block_front.png", "textures/blocks/command_block_front.png");
+  biconsumer.accept("textures/block/command_block_side.png", "textures/blocks/command_block_side.png");
+  biconsumer.accept("textures/block/comparator.png", "textures/blocks/comparator_off.png");
+  biconsumer.accept("textures/block/comparator_on.png", "textures/blocks/comparator_on.png");
+  biconsumer.accept("textures/block/black_concrete.png", "textures/blocks/concrete_black.png");
+  biconsumer.accept("textures/block/blue_concrete.png", "textures/blocks/concrete_blue.png");
+  biconsumer.accept("textures/block/brown_concrete.png", "textures/blocks/concrete_brown.png");
+  biconsumer.accept("textures/block/cyan_concrete.png", "textures/blocks/concrete_cyan.png");
+  biconsumer.accept("textures/block/gray_concrete.png", "textures/blocks/concrete_gray.png");
+  biconsumer.accept("textures/block/green_concrete.png", "textures/blocks/concrete_green.png");
+  biconsumer.accept("textures/block/light_blue_concrete.png", "textures/blocks/concrete_light_blue.png");
+  biconsumer.accept("textures/block/lime_concrete.png", "textures/blocks/concrete_lime.png");
+  biconsumer.accept("textures/block/magenta_concrete.png", "textures/blocks/concrete_magenta.png");
+  biconsumer.accept("textures/block/orange_concrete.png", "textures/blocks/concrete_orange.png");
+  biconsumer.accept("textures/block/pink_concrete.png", "textures/blocks/concrete_pink.png");
+  biconsumer.accept("textures/block/black_concrete_powder.png", "textures/blocks/concrete_powder_black.png");
+  biconsumer.accept("textures/block/blue_concrete_powder.png", "textures/blocks/concrete_powder_blue.png");
+  biconsumer.accept("textures/block/brown_concrete_powder.png", "textures/blocks/concrete_powder_brown.png");
+  biconsumer.accept("textures/block/cyan_concrete_powder.png", "textures/blocks/concrete_powder_cyan.png");
+  biconsumer.accept("textures/block/gray_concrete_powder.png", "textures/blocks/concrete_powder_gray.png");
+  biconsumer.accept("textures/block/green_concrete_powder.png", "textures/blocks/concrete_powder_green.png");
+  biconsumer.accept("textures/block/light_blue_concrete_powder.png", "textures/blocks/concrete_powder_light_blue.png");
+  biconsumer.accept("textures/block/lime_concrete_powder.png", "textures/blocks/concrete_powder_lime.png");
+  biconsumer.accept("textures/block/magenta_concrete_powder.png", "textures/blocks/concrete_powder_magenta.png");
+  biconsumer.accept("textures/block/orange_concrete_powder.png", "textures/blocks/concrete_powder_orange.png");
+  biconsumer.accept("textures/block/pink_concrete_powder.png", "textures/blocks/concrete_powder_pink.png");
+  biconsumer.accept("textures/block/purple_concrete_powder.png", "textures/blocks/concrete_powder_purple.png");
+  biconsumer.accept("textures/block/red_concrete_powder.png", "textures/blocks/concrete_powder_red.png");
+  biconsumer.accept("textures/block/light_gray_concrete_powder.png", "textures/blocks/concrete_powder_silver.png");
+  biconsumer.accept("textures/block/white_concrete_powder.png", "textures/blocks/concrete_powder_white.png");
+  biconsumer.accept("textures/block/yellow_concrete_powder.png", "textures/blocks/concrete_powder_yellow.png");
+  biconsumer.accept("textures/block/purple_concrete.png", "textures/blocks/concrete_purple.png");
+  biconsumer.accept("textures/block/red_concrete.png", "textures/blocks/concrete_red.png");
+  biconsumer.accept("textures/block/light_gray_concrete.png", "textures/blocks/concrete_silver.png");
+  biconsumer.accept("textures/block/white_concrete.png", "textures/blocks/concrete_white.png");
+  biconsumer.accept("textures/block/yellow_concrete.png", "textures/blocks/concrete_yellow.png");
+  biconsumer.accept("textures/block/crafting_table_front.png", "textures/blocks/crafting_table_front.png");
+  biconsumer.accept("textures/block/crafting_table_side.png", "textures/blocks/crafting_table_side.png");
+  biconsumer.accept("textures/block/crafting_table_top.png", "textures/blocks/crafting_table_top.png");
+  biconsumer.accept("textures/block/daylight_detector_inverted_top.png", "textures/blocks/daylight_detector_inverted_top.png");
+  biconsumer.accept("textures/block/daylight_detector_side.png", "textures/blocks/daylight_detector_side.png");
+  biconsumer.accept("textures/block/daylight_detector_top.png", "textures/blocks/daylight_detector_top.png");
+  biconsumer.accept("textures/block/dead_bush.png", "textures/blocks/deadbush.png");
+  biconsumer.accept("textures/block/debug.png", "textures/blocks/debug.png");
+  biconsumer.accept("textures/block/debug2.png", "textures/blocks/debug2.png");
+  biconsumer.accept("textures/blo
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.internal.resources.MarkerInfo.checkValidAttribute(MarkerInfo.java:59)
+	at org.eclipse.core.internal.resources.MarkerAttributeMap.putAll(MarkerAttributeMap.java:113)
+	at org.eclipse.core.internal.resources.MarkerAttributeMap.copy(MarkerAttributeMap.java:88)
+	at org.eclipse.core.internal.resources.MarkerAttributeMap.<init>(MarkerAttributeMap.java:75)
+	at org.eclipse.core.internal.resources.MarkerInfo.<init>(MarkerInfo.java:94)
+	at org.eclipse.core.internal.resources.MarkerInfo.<init>(MarkerInfo.java:100)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:738)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.storeProblemsFor(AbstractImageBuilder.java:832)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.storeProblemsFor(BatchImageBuilder.java:348)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.updateProblemsFor(AbstractImageBuilder.java:885)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:140)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:411)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:370)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2024-07-31 17:23:46.312
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2024-07-31 17:23:46.313
+!MESSAGE Errors running builder 'Java Builder' on project 'directory'.
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: Marker property value is too long: 4:net.minecraft.util.Util#make#java.util.function.Supplier<T>#() -> {
+  Builder<ResourceLocation, ResourceLocation> builder = ImmutableMap.builder();
+  BiConsumer<String, String> biconsumer = (<no type> p_239468_1_, <no type> p_239468_2_) ->   {
+    ResourceLocation resourcelocation = new ResourceLocation(p_239468_1_);
+    ResourceLocation resourcelocation1 = new ResourceLocation(p_239468_2_);
+    builder.put(resourcelocation, resourcelocation1);
+    builder.put(getMetaFileLocation(resourcelocation), getMetaFileLocation(resourcelocation1));
+  };
+  biconsumer.accept("textures/block/melon_stem.png", "textures/block/pumpkin_stem.png");
+  biconsumer.accept("textures/block/anvil.png", "textures/blocks/anvil_base.png");
+  biconsumer.accept("textures/block/anvil_top.png", "textures/blocks/anvil_top_damaged_0.png");
+  biconsumer.accept("textures/block/chipped_anvil_top.png", "textures/blocks/anvil_top_damaged_1.png");
+  biconsumer.accept("textures/block/damaged_anvil_top.png", "textures/blocks/anvil_top_damaged_2.png");
+  biconsumer.accept("textures/block/beacon.png", "textures/blocks/beacon.png");
+  biconsumer.accept("textures/block/bedrock.png", "textures/blocks/bedrock.png");
+  biconsumer.accept("textures/block/beetroots_stage0.png", "textures/blocks/beetroots_stage_0.png");
+  biconsumer.accept("textures/block/beetroots_stage1.png", "textures/blocks/beetroots_stage_1.png");
+  biconsumer.accept("textures/block/beetroots_stage2.png", "textures/blocks/beetroots_stage_2.png");
+  biconsumer.accept("textures/block/beetroots_stage3.png", "textures/blocks/beetroots_stage_3.png");
+  biconsumer.accept("textures/block/bone_block_side.png", "textures/blocks/bone_block_side.png");
+  biconsumer.accept("textures/block/bone_block_top.png", "textures/blocks/bone_block_top.png");
+  biconsumer.accept("textures/block/bookshelf.png", "textures/blocks/bookshelf.png");
+  biconsumer.accept("textures/block/brewing_stand.png", "textures/blocks/brewing_stand.png");
+  biconsumer.accept("textures/block/brewing_stand_base.png", "textures/blocks/brewing_stand_base.png");
+  biconsumer.accept("textures/block/bricks.png", "textures/blocks/brick.png");
+  biconsumer.accept("textures/block/cactus_bottom.png", "textures/blocks/cactus_bottom.png");
+  biconsumer.accept("textures/block/cactus_side.png", "textures/blocks/cactus_side.png");
+  biconsumer.accept("textures/block/cactus_top.png", "textures/blocks/cactus_top.png");
+  biconsumer.accept("textures/block/cake_bottom.png", "textures/blocks/cake_bottom.png");
+  biconsumer.accept("textures/block/cake_inner.png", "textures/blocks/cake_inner.png");
+  biconsumer.accept("textures/block/cake_side.png", "textures/blocks/cake_side.png");
+  biconsumer.accept("textures/block/cake_top.png", "textures/blocks/cake_top.png");
+  biconsumer.accept("textures/block/carrots_stage0.png", "textures/blocks/carrots_stage_0.png");
+  biconsumer.accept("textures/block/carrots_stage1.png", "textures/blocks/carrots_stage_1.png");
+  biconsumer.accept("textures/block/carrots_stage2.png", "textures/blocks/carrots_stage_2.png");
+  biconsumer.accept("textures/block/carrots_stage3.png", "textures/blocks/carrots_stage_3.png");
+  biconsumer.accept("textures/block/cauldron_bottom.png", "textures/blocks/cauldron_bottom.png");
+  biconsumer.accept("textures/block/cauldron_inner.png", "textures/blocks/cauldron_inner.png");
+  biconsumer.accept("textures/block/cauldron_side.png", "textures/blocks/cauldron_side.png");
+  biconsumer.accept("textures/block/cauldron_top.png", "textures/blocks/cauldron_top.png");
+  biconsumer.accept("textures/block/chain_command_block_back.png", "textures/blocks/chain_command_block_back.png");
+  biconsumer.accept("textures/block/chain_command_block_conditional.png", "textures/blocks/chain_command_block_conditional.png");
+  biconsumer.accept("textures/block/chain_command_block_front.png", "textures/blocks/chain_command_block_front.png");
+  biconsumer.accept("textures/block/chain_command_block_side.png", "textures/blocks/chain_command_block_side.png");
+  biconsumer.accept("textures/block/chorus_flower.png", "textures/blocks/chorus_flower.png");
+  biconsumer.accept("textures/block/chorus_flower_dead.png", "textures/blocks/chorus_flower_dead.png");
+  biconsumer.accept("textures/block/chorus_plant.png", "textures/blocks/chorus_plant.png");
+  biconsumer.accept("textures/block/clay.png", "textures/blocks/clay.png");
+  biconsumer.accept("textures/block/coal_block.png", "textures/blocks/coal_block.png");
+  biconsumer.accept("textures/block/coal_ore.png", "textures/blocks/coal_ore.png");
+  biconsumer.accept("textures/block/coarse_dirt.png", "textures/blocks/coarse_dirt.png");
+  biconsumer.accept("textures/block/cobblestone.png", "textures/blocks/cobblestone.png");
+  biconsumer.accept("textures/block/mossy_cobblestone.png", "textures/blocks/cobblestone_mossy.png");
+  biconsumer.accept("textures/block/cocoa_stage0.png", "textures/blocks/cocoa_stage_0.png");
+  biconsumer.accept("textures/block/cocoa_stage1.png", "textures/blocks/cocoa_stage_1.png");
+  biconsumer.accept("textures/block/cocoa_stage2.png", "textures/blocks/cocoa_stage_2.png");
+  biconsumer.accept("textures/block/command_block_back.png", "textures/blocks/command_block_back.png");
+  biconsumer.accept("textures/block/command_block_conditional.png", "textures/blocks/command_block_conditional.png");
+  biconsumer.accept("textures/block/command_block_front.png", "textures/blocks/command_block_front.png");
+  biconsumer.accept("textures/block/command_block_side.png", "textures/blocks/command_block_side.png");
+  biconsumer.accept("textures/block/comparator.png", "textures/blocks/comparator_off.png");
+  biconsumer.accept("textures/block/comparator_on.png", "textures/blocks/comparator_on.png");
+  biconsumer.accept("textures/block/black_concrete.png", "textures/blocks/concrete_black.png");
+  biconsumer.accept("textures/block/blue_concrete.png", "textures/blocks/concrete_blue.png");
+  biconsumer.accept("textures/block/brown_concrete.png", "textures/blocks/concrete_brown.png");
+  biconsumer.accept("textures/block/cyan_concrete.png", "textures/blocks/concrete_cyan.png");
+  biconsumer.accept("textures/block/gray_concrete.png", "textures/blocks/concrete_gray.png");
+  biconsumer.accept("textures/block/green_concrete.png", "textures/blocks/concrete_green.png");
+  biconsumer.accept("textures/block/light_blue_concrete.png", "textures/blocks/concrete_light_blue.png");
+  biconsumer.accept("textures/block/lime_concrete.png", "textures/blocks/concrete_lime.png");
+  biconsumer.accept("textures/block/magenta_concrete.png", "textures/blocks/concrete_magenta.png");
+  biconsumer.accept("textures/block/orange_concrete.png", "textures/blocks/concrete_orange.png");
+  biconsumer.accept("textures/block/pink_concrete.png", "textures/blocks/concrete_pink.png");
+  biconsumer.accept("textures/block/black_concrete_powder.png", "textures/blocks/concrete_powder_black.png");
+  biconsumer.accept("textures/block/blue_concrete_powder.png", "textures/blocks/concrete_powder_blue.png");
+  biconsumer.accept("textures/block/brown_concrete_powder.png", "textures/blocks/concrete_powder_brown.png");
+  biconsumer.accept("textures/block/cyan_concrete_powder.png", "textures/blocks/concrete_powder_cyan.png");
+  biconsumer.accept("textures/block/gray_concrete_powder.png", "textures/blocks/concrete_powder_gray.png");
+  biconsumer.accept("textures/block/green_concrete_powder.png", "textures/blocks/concrete_powder_green.png");
+  biconsumer.accept("textures/block/light_blue_concrete_powder.png", "textures/blocks/concrete_powder_light_blue.png");
+  biconsumer.accept("textures/block/lime_concrete_powder.png", "textures/blocks/concrete_powder_lime.png");
+  biconsumer.accept("textures/block/magenta_concrete_powder.png", "textures/blocks/concrete_powder_magenta.png");
+  biconsumer.accept("textures/block/orange_concrete_powder.png", "textures/blocks/concrete_powder_orange.png");
+  biconsumer.accept("textures/block/pink_concrete_powder.png", "textures/blocks/concrete_powder_pink.png");
+  biconsumer.accept("textures/block/purple_concrete_powder.png", "textures/blocks/concrete_powder_purple.png");
+  biconsumer.accept("textures/block/red_concrete_powder.png", "textures/blocks/concrete_powder_red.png");
+  biconsumer.accept("textures/block/light_gray_concrete_powder.png", "textures/blocks/concrete_powder_silver.png");
+  biconsumer.accept("textures/block/white_concrete_powder.png", "textures/blocks/concrete_powder_white.png");
+  biconsumer.accept("textures/block/yellow_concrete_powder.png", "textures/blocks/concrete_powder_yellow.png");
+  biconsumer.accept("textures/block/purple_concrete.png", "textures/blocks/concrete_purple.png");
+  biconsumer.accept("textures/block/red_concrete.png", "textures/blocks/concrete_red.png");
+  biconsumer.accept("textures/block/light_gray_concrete.png", "textures/blocks/concrete_silver.png");
+  biconsumer.accept("textures/block/white_concrete.png", "textures/blocks/concrete_white.png");
+  biconsumer.accept("textures/block/yellow_concrete.png", "textures/blocks/concrete_yellow.png");
+  biconsumer.accept("textures/block/crafting_table_front.png", "textures/blocks/crafting_table_front.png");
+  biconsumer.accept("textures/block/crafting_table_side.png", "textures/blocks/crafting_table_side.png");
+  biconsumer.accept("textures/block/crafting_table_top.png", "textures/blocks/crafting_table_top.png");
+  biconsumer.accept("textures/block/daylight_detector_inverted_top.png", "textures/blocks/daylight_detector_inverted_top.png");
+  biconsumer.accept("textures/block/daylight_detector_side.png", "textures/blocks/daylight_detector_side.png");
+  biconsumer.accept("textures/block/daylight_detector_top.png", "textures/blocks/daylight_detector_top.png");
+  biconsumer.accept("textures/block/dead_bush.png", "textures/blocks/deadbush.png");
+  biconsumer.accept("textures/block/debug.png", "textures/blocks/debug.png");
+  biconsumer.accept("textures/block/debug2.png", "textures/blocks/debug2.png");
+  biconsumer.accept("textures/blo
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.internal.resources.MarkerInfo.checkValidAttribute(MarkerInfo.java:59)
+	at org.eclipse.core.internal.resources.MarkerAttributeMap.putAll(MarkerAttributeMap.java:113)
+	at org.eclipse.core.internal.resources.MarkerAttributeMap.copy(MarkerAttributeMap.java:88)
+	at org.eclipse.core.internal.resources.MarkerAttributeMap.<init>(MarkerAttributeMap.java:75)
+	at org.eclipse.core.internal.resources.MarkerInfo.<init>(MarkerInfo.java:94)
+	at org.eclipse.core.internal.resources.MarkerInfo.<init>(MarkerInfo.java:100)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:738)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.storeProblemsFor(AbstractImageBuilder.java:832)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.storeProblemsFor(BatchImageBuilder.java:348)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.updateProblemsFor(AbstractImageBuilder.java:885)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:140)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:411)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:370)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:198)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
